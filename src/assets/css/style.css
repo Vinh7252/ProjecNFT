@@ -1,0 +1,14 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* base css */
+@import url("./_base.css");
+@import url("./_ultilities.css");
+@import url("./_variables.css");
+
+/* compoments */
+@import url("./component/_text.css");
+
+/* section */
+@import url("./section/_navbar.css");
