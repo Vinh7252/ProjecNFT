@@ -7,8 +7,16 @@
 @import url("./_ultilities.css");
 @import url("./_variables.css");
 
+
 /* compoments */
 @import url("./component/_text.css");
+@import url("./component/_container.css");
+@import url("./component/_heading.css");
+@import url("./component/_button.css");
 
 /* section */
 @import url("./section/_navbar.css");
+@import url("./section/_header.css");
+@import url("./section/_header.css");
+@import url("./section/_feartures.css");
+@import url("./section/_marketplace.css");

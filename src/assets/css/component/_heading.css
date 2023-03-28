@@ -1,0 +1,65 @@
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--heading-ff); 
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+h3,h4,h5,h6{
+    font-family:var(--body-ff); 
+}
+
+h1{
+    font-size: 4rem;
+    line-height: clac(75/64);
+    margin-bottom: 1.25rem;
+    
+
+}
+
+h2{
+    font-size: 3rem;
+    line-height: clac(58/48);
+    
+    max-width: 25rem;
+
+    margin-bottom: 1.25rem;
+
+
+}
+
+h3{
+    font-size: 2.5rem;
+    line-height: clac(50/40);
+    
+
+}
+
+h4{
+    font-size: 1.75rem;
+    line-height: calc(38 / 28);
+
+}
+
+h5{
+    font-size: 1.5rem;
+    line-height: calc(34/24);
+
+}
+
+.section-heading{
+    text-align: center;
+    max-width: 35rem;
+    margin:0 auto;
+
+}
+
+@media (max-width: 1024px){
+    h1 {font-size: 2rem;}
+
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3{
+        font-size: 1.75rem;
+    }
+}

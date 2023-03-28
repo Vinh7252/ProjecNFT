@@ -1,0 +1,32 @@
+.features-container {
+  --grid-cols: 2;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  gap: 6.875rem;
+  align-items: center;
+  margin: 0 auto;
+}
+.feature-item {
+  /* max-width: 35rem; */
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--body-color);
+  color: var(--bg-color);
+  padding: 2.125rem 2.875rem;
+  border: 1px solid var(--bg-color);
+  border-radius: var(--rounded);
+}
+
+.feature-item h4 {
+  color: var(--bg-color);
+}
+
+.feature-price {
+  border: 4.75rem solid var(--bg-color);
+}
+.feature-clock {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.8125rem;
+}

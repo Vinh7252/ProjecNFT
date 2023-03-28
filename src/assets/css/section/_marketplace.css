@@ -1,0 +1,60 @@
+.marketplace-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.marketplace-header h2{
+    /* flex-grow: 1; */
+    width: 100%;
+    max-width: 31rem;
+}
+
+.marketplace-header p{
+    width: 100%;
+    max-width: 19.125rem;
+
+}
+
+
+
+.btn-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 2.7rem;
+}
+
+.btn-tag{
+    border: 1px solid #D0CACA;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid #D0CACA;
+    border-radius: var(--rounded);
+}
+
+
+.market-items-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1.875rem;
+    margin: 6.125rem 0;
+}
+
+.market-item{
+    padding: 1.25rem 1.625rem;
+    
+    border: 1px solid #C0B6B6;
+    border-radius: var(--rounded);
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.market-item-img{
+    border-radius: var(--rounded);
+}

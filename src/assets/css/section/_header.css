@@ -1,0 +1,24 @@
+.header-container {
+    --grid-cols: 2;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    gap: var(--column-gap);
+    padding: 2.75rem 0;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header-text {
+    margin-bottom: 3.125rem;
+   
+  }
+
+  .header-items{
+    display: flex;
+    gap: 4.5rem;
+    margin-top: 2.8rem;
+
+  }
+
+
+

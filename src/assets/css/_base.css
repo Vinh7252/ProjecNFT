@@ -13,6 +13,10 @@ iframe {
   height: auto;
 }
 
+img{
+  border-radius: var(--rounded);
+}
+
 a {
   display: block;
   text-decoration: none;
@@ -51,6 +55,5 @@ body {
 }
 
 main {
-  padding: 10rem 0;
   position: relative;
 }

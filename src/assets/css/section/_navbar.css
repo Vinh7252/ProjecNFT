@@ -1,0 +1,30 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.75rem 0;
+    
+
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.8125rem;
+    
+}
+
+.navbar-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.8125rem;
+    
+}
+
+.navbar-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+}
+

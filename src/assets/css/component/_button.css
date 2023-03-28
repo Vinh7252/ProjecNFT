@@ -1,0 +1,34 @@
+.btn{
+   /* width: 3.625rem; */
+    color: var(--body-color);
+    align-items: center;
+    white-space: nowrap;
+
+    transition: var(--transition);
+}
+
+.btn-outline{
+   
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    padding: 0.875rem 2rem;
+    max-width: 9.375rem;
+    width:100%;
+    border-radius: var(--rounded);
+    border: 1px solid var(--primary-color);
+    text-align: center;
+   
+    
+}
+
+.btn-solid{
+    
+    color: #000;
+    background-color: var(--heading-color);
+    border-radius:var(--rounded);
+    padding: 0.75rem 1.75rem;
+    width: 100%;
+
+    max-width: 15.625rem;
+
+}
