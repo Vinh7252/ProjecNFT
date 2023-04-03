@@ -1,0 +1,44 @@
+.community-container h2{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.community-container a{
+    margin: 2rem auto;
+}
+
+
+
+.community-items-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+
+}
+
+.community-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);;
+    padding: 0rem 0.75rem 0rem 1.5rem ;
+    gap: 1.1875rem;
+    border-radius: var(--rounded);
+}
+
+.community-img{
+    width: 4.125rem;
+}
+
+.Creator-info{
+    flex-grow: 1; 
+}
+
+
+.creator-more{
+    color: #947e7e;
+    font-weight: 900;
+    font-size: 2rem;
+}
+

@@ -10,7 +10,7 @@ h3,h4,h5,h6{
 
 h1{
     font-size: 4rem;
-    line-height: clac(75/64);
+    line-height: calc(75/64);
     margin-bottom: 1.25rem;
     
 
@@ -18,9 +18,9 @@ h1{
 
 h2{
     font-size: 3rem;
-    line-height: clac(58/48);
+    line-height: calc(58/48);
     
-    max-width: 25rem;
+    /* max-width: auto; */
 
     
 
@@ -29,7 +29,7 @@ h2{
 
 h3{
     font-size: 2.5rem;
-    line-height: clac(50/40);
+    line-height: calc(50/40);
     
 
 }
